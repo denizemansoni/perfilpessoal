@@ -1,0 +1,148 @@
+/* RESET BÁSICO */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f9fb;
+  color: #333;
+}
+
+/* HEADER */
+header {
+  background-color: #0077b6;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+header p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+/* NAVEGAÇÃO */
+nav {
+  background-color: #023e8a;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #90e0ef;
+}
+
+/* MAIN */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* SEÇÕES */
+section, aside {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.icones-habilidades i {
+  font-size: 50px;
+  margin: 15px;
+  transition: transform 0.3s;
+  justify-content: center;
+}
+
+.icones-habilidades i:hover {
+  transform: scale(1.2);
+  color: #00b4d8;
+  cursor: pointer;
+}
+@keyframes rainbow {
+  0%   { color: #ff595e; }
+  25%  { color: #ffca3a; }
+  50%  { color: #8ac926; }
+  75%  { color: #1982c4; }
+  100% { color: #6a4c93; }
+}
+
+.icones-habilidades i:hover {
+  animation: rainbow 1.5s linear infinite;
+  transform: scale(1.2);
+}
+
+.contato {
+  background-color: var(--azul-navegação);
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+  border-top: 4px solid #00b4d8;
+  margin-top: 40px;
+}
+
+.contato ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contato li {
+  margin: 10px 0;
+  font-size: 1.1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.contato a {
+  color: #90e0ef;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contato a:hover {
+  color: #ffffff;
+}
+
+.contato i {
+  font-size: 24px;
+}
+
+/* IMAGEM DE PERFIL*/
+.foto {
+  width: 120px;        /* Define a largura desejada */
+  height: 120px;        /* Define a altura */
+  border-radius: 50%;   /* Deixa a imagem redonda */
+  object-fit: cover;    /* Corta e preenche o espaço sem distorcer */
+  display: block;       
+  margin: 0 auto 20px;  /* Centraliza e dá espaço abaixo */
+}
