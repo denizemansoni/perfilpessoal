@@ -18,7 +18,7 @@ A proposta inclui:
 
 - HTML5
 - CSS3
-- Flexbox e Grid
+- Flexbox
 - Font Awesome & Devicon
 - Google Fonts
 
