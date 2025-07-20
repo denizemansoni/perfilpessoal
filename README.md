@@ -7,7 +7,6 @@ A proposta inclui:
 - Estrutura HTML com uso das principais tags semânticas.
 - Estilização moderna com Flexbox, ícones personalizados e responsividade.
 - Apresentação de informações pessoais, habilidades e contatos profissionais.
-- Um toque de criatividade para refletir minha personalidade e paixão por tecnologia.
 
 ## 💻 Arquivos incluídos
 
